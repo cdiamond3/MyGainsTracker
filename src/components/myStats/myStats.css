@@ -8,11 +8,10 @@
 }
 .centerArea {
   flex: 3;
-  background-color: rgb(20, 97, 238);
+  height: 100%;
 }
 
 .rightArea {
-  background-color: rgb(18, 105, 3);
   flex: 3;
 }
 
@@ -21,4 +20,12 @@
   color: white;
   text-decoration: none;
   border: none;
+}
+
+.infoContainer{
+  background-color: rgba(144, 136, 136, 0.555);
+  padding: 30px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 10rem;
 }

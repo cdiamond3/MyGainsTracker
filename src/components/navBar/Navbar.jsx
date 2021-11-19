@@ -11,7 +11,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="center">
-        <h1> Fitness Tracker </h1>
+        <h1 className="title"> Fitness Tracker </h1>
       </div>
       <div className="rightSide">
         <div className="navButtonsLeft">
