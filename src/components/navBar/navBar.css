@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: row;
   z-index: 3;
-
 }
 
 .leftSide {
@@ -39,8 +38,8 @@
   align-items: center;
 }
 
-button {
-  background-color: #f8623d; 
+.navButton {
+  background-color: #f8623d;
   border: none;
   border-radius: 8px;
   height: 3rem;

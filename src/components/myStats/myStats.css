@@ -4,7 +4,6 @@
 }
 
 .leftArea {
-  background-color: rgb(105, 3, 3);
   flex: 3;
 }
 .centerArea {
@@ -13,6 +12,13 @@
 }
 
 .rightArea {
-    background-color: rgb(18, 105, 3);
-    flex: 3;
-  }
+  background-color: rgb(18, 105, 3);
+  flex: 3;
+}
+
+.calander {
+  background-color:  #f8623d;
+  color: white;
+  text-decoration: none;
+  border: none;
+}

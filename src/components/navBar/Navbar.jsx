@@ -5,9 +5,9 @@ export default function Navbar() {
     <div className="navContainer">
       <div className="leftSide">
         <div className="navButtonsRight">
-          <button> Home </button>
-          <button> All My Stats</button>
-          <button> All My Goals </button>
+          <button className="navButton"> Home </button>
+          <button className="navButton"> All My Stats</button>
+          <button className="navButton"> All My Goals </button>
         </div>
       </div>
       <div className="center">
@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="navButtonsLeft">
           <p> USER </p>
           <image />
-          <button> Login </button>
+          <button className="navButton"> Login </button>
         </div>
       </div>
     </div>
