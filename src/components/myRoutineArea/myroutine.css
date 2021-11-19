@@ -1,0 +1,6 @@
+.routineContainer {
+    display: flex;
+    justify-content: center;
+    height: 15rem;
+    background-color: rgb(226, 158, 94);
+}

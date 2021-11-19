@@ -1,0 +1,6 @@
+.workoutsContainer{
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+    background-color: rgb(232, 157, 235);
+}

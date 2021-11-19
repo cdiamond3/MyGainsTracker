@@ -1,9 +1,17 @@
 import "./App.css";
+import Navbar from "./components/navBar/Navbar";
+import Mystats from "./components/myStats/MyStats";
+import Workouts from "./components/workouts/Workouts";
+import MyRoutine from "./components/myRoutineArea/MyRoutine";
+
 
 function App() {
   return (
     <div className="App">
-      <h1> Hello World </h1>
+      <Navbar />
+      <Mystats />
+      <Workouts />
+      <MyRoutine />
     </div>
   );
 }

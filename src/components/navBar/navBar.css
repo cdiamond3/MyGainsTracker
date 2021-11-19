@@ -1,0 +1,53 @@
+.navContainer {
+  background-color: rgb(255, 255, 255);
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  z-index: 3;
+
+}
+
+.leftSide {
+  flex: 3;
+}
+.center {
+  flex: 3;
+}
+.rightSide {
+  flex: 3;
+}
+
+.navButtonsRight {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navButtonsLeft {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #f8623d; 
+  border: none;
+  border-radius: 8px;
+  height: 3rem;
+  width: 10rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

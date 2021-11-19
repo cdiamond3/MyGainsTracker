@@ -1,0 +1,18 @@
+.myStatsContainer {
+  display: flex;
+  height: 20rem;
+}
+
+.leftArea {
+  background-color: rgb(105, 3, 3);
+  flex: 3;
+}
+.centerArea {
+  flex: 3;
+  background-color: rgb(20, 97, 238);
+}
+
+.rightArea {
+    background-color: rgb(18, 105, 3);
+    flex: 3;
+  }
